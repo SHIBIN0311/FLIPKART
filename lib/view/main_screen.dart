@@ -1,5 +1,6 @@
 import 'package:flipkart/view/account.dart';
 import 'package:flipkart/view/cart.dart';
+import 'package:flipkart/view/categories.dart';
 import 'package:flipkart/view/custom/bottom_navigation_bar.dart';
 import 'package:flipkart/view/home.dart';
 import 'package:flipkart/view/notification.dart';
@@ -9,6 +10,7 @@ class MainScreen extends StatelessWidget {
   MainScreen({super.key});
   final pages = [
     const HomeScreen(),
+    CategoryScreen(),
     const NotificationsScreen(),
     const AccountScreen(userName: 'Kgs', emailId: 'toxic@gmail.com',),
     const CartScreen(),

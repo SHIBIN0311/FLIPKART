@@ -26,6 +26,8 @@ class BottomNavigationBarWidget extends StatelessWidget {
             BottomNavigationBarItem(
                 icon: Icon(Icons.home_outlined), label: 'Home'),
             BottomNavigationBarItem(
+                icon: Icon(Icons.qr_code_rounded), label: 'Categories'),
+            BottomNavigationBarItem(
                 icon: Icon(Icons.notifications_none), label: 'Notification'),
             BottomNavigationBarItem(
                 icon: Icon(Icons.account_circle_outlined), label: 'Account'),
